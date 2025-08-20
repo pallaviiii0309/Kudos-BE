@@ -31,14 +31,22 @@ A simple backend for a weekly “kudos” system. Each user gets **3 kudos per w
 git clone https://github.com/pallaviiii0309/Kudos-BE.git
 cd KUDOS-BACKEND
 py manage.py runserver
+```
 
-## For Admin Login
-### 2) For Admin Login
+### 2) create/activate enviroment and install pacakages
 ```bash
+#windows
+python -m venv myenv
+myenv\Scripts\activate
+pip install requirements.txt
+```
 
+### 3) For Admin Login
+```bash
 URL: http://localhost:8000/admin/
 USERNAME: admin
 PASSWORD: admin@123
+```
 
 
 
